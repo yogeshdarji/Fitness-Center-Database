@@ -1,0 +1,188 @@
+﻿insert into Customer values('C01', 987654321, 'Yogesh', 'Richarson', 'Male', 4696643693, 'B001', 'F001', 111111111);
+
+
+insert into Customer values('C02', 987654322, 'Akshay', 'Dallas', 'Male', 4696643694, 'B002', 'F002', 111111112);
+
+
+insert into Customer values('C03', 987654323, 'Joy', 'Plano', 'Female', 4696643678, 'B003', 'F003', 111111113);
+
+
+insert into Customer values('C04', 987654324, 'John', 'Garland', 'Male', 4696643698, 'B004', 'F004', 111111114);
+
+
+insert into Customer values('C05', 987654325, 'David', 'Allen', 'Female', 4696643673, 'B005', 'F005', 111111115);
+
+
+
+
+
+insert into Facilties values('F01', 'Cardio','Indoor', 25);
+
+insert into Facilties values('F02', 'Steam','Indoor', 30);
+
+insert into Facilties values('F03', 'SONA','Indoor', 10);
+
+insert into Facilties values('F04', 'Cross-Fit','Indoor', 22);
+
+insert into Facilties values('F05', 'Cycling','Outdoor', 45);
+
+
+
+
+
+insert into Fitness_Branch values('BR01', 'Richardson','Galaxy', 234123432, 333333331);
+
+insert into Fitness_Branch values('BR02', 'Dallas','BlueStar', 234123439, 333333332);
+
+insert into Fitness_Branch values('BR03', 'Plano','GroundFly', 251232123, 333333333);
+
+insert into Fitness_Branch values('BR04', 'Garland','Gauant', 258976321, 333333334);
+
+insert into Fitness_Branch values('BR05', 'Allen','Kclock', 258976321, 333333335);
+
+
+
+
+insert into Batches values(‘BT01’,’Morning’, ‘06:00’, '10:00', 'BR01');
+
+insert into Batches values(‘BT02’,’Morning’, ‘06:00’, '10:00', 'BR01');
+
+insert into Batches values(‘BT03’,’Morning’, ‘08:00’, '11:00', 'BR01');
+
+insert into Batches values(‘BT04’,’Morning’, ‘08:00’, '10:00', 'BR04');
+
+insert into Batches values(‘BT05’,’Morning’, ‘18:00’, '21:00', 'BR05');
+
+
+
+
+insert into F_Employee values(333333331, 'Thomas', 'McCallum', 9999999999, 'BR01');
+
+insert into F_Employee values(222222221, 'Tommy', 'Irving', '9999999999', 'BR01');
+
+insert into F_Employee values(444444441, 'Dukes', 'Arlington', 9999999999', 'BR01');
+
+insert into F_Employee values(333333331, 'Alex', 'NewYork', '9999999999', 'BR01');
+
+insert into F_Employee values(333333331, 'Chan', 'New Campbell', '9999999999', 'BR01');
+
+insert into F_Employee values(333333334,'Alex', 'New Campbell', '9999999969', 'BR04');
+
+insert into F_Employee values(333333335,'Chung', 'New Campbell', '9999999959', 'BR05');
+
+
+
+
+
+
+
+
+insert into Equipment values(‘EP01’,’Cardio’, ‘Good’, 'Allen', 'Treadmill', 'BR01',222222221);
+
+insert into Equipment values(‘EP02’,’Cardio’, ‘Excellent’, 'Allen', 'Treadmill', 'BR01',222222221);
+
+insert into Equipment values(‘EP03’,’Cardio’, ‘In Repair’, 'Allen', 'Treadmill', 'BR01',222222222);
+
+insert into Equipment values(‘EP04’,’Cycling’, ‘Good’, 'Allen', 'Treadmill', 'BR01',222222223);
+
+insert into Equipment values(‘EP05’,’Dumbles’, ‘Good’, 'Allen', 'Treadmill', 'BR01',222222224);
+
+
+
+
+
+
+insert into Clerk values(222222221, 200);
+
+insert into Clerk values(222222222, 300);
+
+insert into Clerk values(222222223, 250);
+insert into Clerk values(222222224, 400);
+
+insert into Clerk values(222222225, 300);
+
+
+
+
+insert into Managers values(333333331, 2000);
+
+insert into Managers values(333333332, 2500);
+
+insert into Managers values(333333333, 3000);
+
+insert into Managers values(333333334, 2200);
+
+insert into Managers values(333333335, 2000);
+
+
+
+
+
+insert into Batch_Trainer values(‘BT01’,’444444441');
+
+insert into Batch_Trainer values(‘BT02’,’444444442');
+
+insert into Batch_Trainer values(‘BT03’,’444444443');
+
+insert into Batch_Trainer values(‘BT04’,’444444444');
+
+insert into Batch_Trainer values(‘BT05’,’444444445');
+
+
+
+
+
+insert into Customer_Report values('R01', 23, 78, 5, 10, 12, 'C01', 222222221);
+
+insert into Customer_Report values('R02', 23, 88, 5, 10, 12, 'C01', 222222222);
+
+insert into Customer_Report values('R03', 23, 73, 5, 10, 12, 'C01', 222222223);
+
+insert into Customer_Report values('R04', 23, 78, 5, 10, 12, 'C01', 222222221);
+
+insert into Customer_Report values('R05', 23, 78, 5, 10, 12, 'C01', 222222221);
+
+
+
+
+insert into Trainer values(444444441, 20);
+
+insert into Trainer values(444444442, 22);
+
+insert into Trainer values(444444443, 24);
+
+insert into Trainer values(444444444, 28);
+
+insert into Trainer values(444444445, 30);
+
+
+
+
+insert into Branch_Facilities values('BR01', 'F01');
+
+insert into Branch_Facilities values('BR02', 'F02');
+
+insert into Branch_Facilities values('BR03', 'F03');
+
+insert into Branch_Facilities values('BR04', 'F04');
+
+insert into Branch_Facilities values('BR05', 'F05');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
